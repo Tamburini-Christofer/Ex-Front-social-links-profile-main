@@ -30,6 +30,12 @@ button{
     background-color: #333333;
 }
 
+button:hover{
+    cursor: pointer;
+    color: black;
+    background-color: #C4F82A;
+}
+
 .green_text{
     color: #9BB824;
 }
@@ -53,3 +59,13 @@ img{
     border-radius: 100%;
 }
 
+/*Responsive*/
+
+@media screen and (max-width: 380px) {
+
+    .wrapper{ 
+    width: 80%;
+    margin: 8vh;
+    }
+    
+}

@@ -5,10 +5,10 @@
 }
 
 body{
-    background-color: #0E0E0E;
+    background-color: hsl(0, 0%, 8%);
     color: white;
     font-size: 14px;
-    font-family: "Inter-variabiles", Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
 h3{
@@ -25,9 +25,9 @@ button{
     margin: 10px auto;
     border: 0px;
     border-radius: 8px;
-    padding: 10px 0px;
+    padding: 15px 0px;
     color: white;
-    background-color: #333333;
+    background-color: hsl(0, 0%, 20%);
 }
 
 button:hover{
@@ -48,9 +48,9 @@ button:hover{
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    width: 29%;
-    margin: 20vh auto;
-    background-color: #1F1F1F;
+    width: 30%;
+    margin: 15% auto;
+    background-color: hsl(0, 0%, 12%);
 }
 
 img{
@@ -65,7 +65,8 @@ img{
 
     .wrapper{ 
     width: 80%;
-    margin: 8vh;
+    margin: 30% 10%;
+    padding: 0;
     }
     
 }

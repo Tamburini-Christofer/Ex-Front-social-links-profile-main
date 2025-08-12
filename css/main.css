@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0E0E0E;
+    color: white;
+    font-size: 12px;
+    font-family: "Inter-variabiles", Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.green_text{
+    color: #9BB824;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    height: 400px;
+    width: 22%;
+    margin: 25vh auto;
+    background-color: #1F1F1F;
+}
+
+img{
+    margin: 25px;
+    max-height: 30%;
+    border-radius: 100%;
+}
+
